@@ -1,0 +1,35 @@
+body{
+    background-color:  hsl(212, 45%, 89%);
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Outfit ;
+}
+
+.container{
+    position:relative;
+    justify-content: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    width: 320px;
+    margin: 20px;
+}
+
+img{
+    border-radius: 15px;
+    justify-content: center;
+    width: 100%;
+}
+
+p{
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+}
+
+
+.attribution { font-size: 0.6875rem; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
