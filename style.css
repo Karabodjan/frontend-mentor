@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    grid-template-rows: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 100vh;
+    font-family: Figtree;
+}
+
+main{
+    display: flex;
+    gap: 50px;
+}
+
+.card{
+    background-color: greenyellow;
+    padding: 15px;
+    width: 320px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    box-shadow: 8px 8px 0px black;
+    border: 2px solid black;
+}
+.img{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.img:hover, .img:focus{
+    cursor: pointer;
+}
+
+.tecno{
+    background-color: yellow;
+    font-weight: 800;
+    width: fit-content;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.date{
+    margin-bottom: 10px;
+}
+
+.title{
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.title:hover, .title:focus{
+    cursor: pointer;
+    color: yellow;
+}
+.title a{
+    text-decoration: none;
+    color: inherit;
+}
