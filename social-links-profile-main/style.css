@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    font-family: Inter;
+}
+
+.container{
+    background-color:hsl(0, 0%, 12%);
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px;
+   
+}
+
+.img{
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 100%;
+     margin: 25px;
+}
+
+.title{
+    color: hsl(0, 0%, 100%);
+}
+
+.location{
+    margin-top: 5px;
+    color: hsl(75, 94%, 57%);
+}
+.job{
+    color:hsl(0, 0%, 100%);
+    margin: 25px;
+}
+
+.link{
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
